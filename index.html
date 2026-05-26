@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Andrews' personal portfolio showcasing his journey as a Full Stack Developer."
+    />
+    <meta
+      name="keywords"
+      content="Andrews, Boamah, Full Stack Developer, Portfolio, Web Development, Projects"
+    />
+    <title>Drew | Full Stack Developer</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background: #0f172a;
+        color: #e2e8f0;
+        line-height: 1.6;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        background: #111827;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      header h1 {
+        font-size: 20px;
+        color: #38bdf8;
+      }
+
+      nav a {
+        margin-left: 20px;
+        color: #e2e8f0;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      nav a:hover {
+        color: #38bdf8;
+      }
+
+      .hero {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+      }
+
+      .hero h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        font-size: 18px;
+        max-width: 600px;
+        color: #94a3b8;
+      }
+
+      .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #38bdf8;
+        border: none;
+        color: #0f172a;
+        cursor: pointer;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 60px 10%;
+      }
+
+      h2.section-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #38bdf8;
+      }
+
+      .card {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #111827;
+        color: #94a3b8;
+      }
+
+      .tag {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px 10px;
+        background: #0f172a;
+        border: 1px solid #38bdf8;
+        border-radius: 20px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>drew.dev</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Hi, I'm Andrews Boamah</h2>
+      <p>
+        A Computer Technology student at the Kumasi Technical University (KsTU),
+        focused on Full Stack Development. I build, learn, and document my
+        journey daily.
+      </p>
+      <a class="btn" href="#projects">View My Work</a>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="card">
+        <p>
+          I'm currently pursuing a Bachelor of Technology Degree in Computer
+          Technology. My goal is to become a highly skilled Full Stack
+          Developer. I focus on practical learning, building real-world
+          projects, and growing through consistent practice.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="card">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript (Learning)</span>
+        <span class="tag">Git & GitHub</span>
+        <span class="tag">Problem Solving</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Project 1</h3>
+          <p>Placeholder: Build a personal portfolio website.</p>
+        </div>
+        <div class="card">
+          <h3>Project 2</h3>
+          <p>Placeholder: Simple calculator using JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <h2 class="section-title">My 3-Month Focus</h2>
+      <div class="card">
+        <ul>
+          <li>Master HTML, CSS, JavaScript fundamentals</li>
+          <li>Build 10+ frontend projects</li>
+          <li>Learn GitHub workflow and deployment</li>
+          <li>Start backend basics (Node.js)</li>
+          <li>Intro to cybersecurity tools & concepts</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="card">
+        <p>Email: andrewsboamah77@gmail.com</p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/andrews-boamah/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn Profile</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a
+            href="https://github.com/andrews-boamah/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub Profile</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Drew. Built with HTML & CSS.</p>
+    </footer>
+  </body>
+</html>
